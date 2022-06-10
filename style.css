@@ -1,0 +1,34 @@
+body{
+    background-color: #FFE3A9 ;
+
+}
+
+h1 {
+    background-color: #FFC3C3;
+    color: #541690;
+}
+
+#show_sketch {
+    float:right;
+}
+
+canvas {
+    border: 5px solid silver;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{ box-shadow: 1px 1px 38px #DFDFDE; }
+    from{ box-shadow: 1px 1px 38px #F5EEDC; }
+}
+
+p {
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;;
+}
